@@ -57,6 +57,8 @@ XML Sitemaps (Sitemap generator)
 Privacy Policy Generator
 Testing
 Bugs
+First git push
+
 Deployment
 Using Github and Codeanywhere
 To set up this repository, I use the Code Institute Full Template.
