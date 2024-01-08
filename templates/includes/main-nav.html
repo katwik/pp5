@@ -30,9 +30,26 @@
         Paintings
       </a>
       <div class="dropdown-menu border-0" aria-labelledby="paintings-link">
-        <a href="" class="dropdown-item">Acrylic</a>
-        <a href="" class="dropdown-item">Oil</a>
-        <a href="" class="dropdown-item">Fluid art</a>
+        <a
+          href="{% url 'products' %}?category=paintings,acrylic"
+          class="dropdown-item"
+          >Acrylic &amp; Acrylic</a
+        >
+        <a
+          href="{% url 'products' %}?category=paintings,oil"
+          class="dropdown-item"
+          >Oil &amp; Oil</a
+        >
+        <a
+          href="{% url 'products' %}?category=paintings,fluid_art"
+          class="dropdown-item"
+          >Fluid art &amp; Fluid art</a
+        >
+        <a
+          href="{% url 'products' %}?category=paintings,acrylic,oil,fluid_art"
+          class="dropdown-item"
+          >All paintings art &amp; All paintings</a
+        >
       </div>
     </li>
 
