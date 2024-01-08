@@ -54,7 +54,11 @@ body {
 }
 
 .border-black {
-    border: 1px solid black
+    border: 1px solid black;
+}
+
+.bg-black {
+    background: #000;
 }
 
 .overlay {
@@ -65,6 +69,11 @@ body {
     position: fixed;
     background: white;
     z-index: -1;
+}
+
+a.category-badge>span.badge:hover {
+    background: #212529;
+    color: #fff;
 }
 
 /* -------------------------------- Media Queries */
